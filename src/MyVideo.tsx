@@ -20,6 +20,9 @@ export const MyVideo: React.FC<MyVideoProps> = ({typeId, thumbnail}: MyVideoProp
 		} else if (typeId === '2') {
 			thumbnailStyle.marginTop = '78%'
 			thumbnailStyle.marginLeft = '33%'
+		} else if (typeId === '3') {
+			thumbnailStyle.marginTop = '95%'
+			thumbnailStyle.marginLeft = '50%'
 		}
 
 		return thumbnailStyle
@@ -32,6 +35,8 @@ export const MyVideo: React.FC<MyVideoProps> = ({typeId, thumbnail}: MyVideoProp
 			thumbnailFrom = 225
 		} else if (typeId === '2') {
 			thumbnailFrom = 92
+		} else if (typeId === '3') {
+			thumbnailFrom = 78
 		}
 
 		return thumbnailFrom
@@ -44,6 +49,8 @@ export const MyVideo: React.FC<MyVideoProps> = ({typeId, thumbnail}: MyVideoProp
 			thumbnailDurationInFrames = 80
 		} else if (typeId === '2') {
 			thumbnailDurationInFrames = 30
+		} else if (typeId === '3') {
+			thumbnailDurationInFrames = 120
 		}
 
 		return thumbnailDurationInFrames
