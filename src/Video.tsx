@@ -20,7 +20,7 @@ export const RemotionVideo: React.FC = () => {
 				width={1080}
 				height={1920}
 				defaultProps={{
-					typeId: '1',
+					typeId: '2',
 					thumbnail : 'https://www.stored-youtube-video-thumbnails.ggio.fr/258'
 				}}
 			/>
