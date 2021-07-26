@@ -7,6 +7,8 @@ export default function getDurationInFramesFromTypeId(typeId: string): number {
         durationInFrames = 331
     } else if (typeId === '3') {
         durationInFrames = 255
+    } else if (typeId === '4') {
+        durationInFrames = 462
     }
 
     return durationInFrames
