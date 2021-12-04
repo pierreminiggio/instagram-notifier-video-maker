@@ -1,7 +1,6 @@
 import React, {CSSProperties, useMemo} from "react";
 import {Img, Sequence, Video} from "remotion";
 import getDurationInFramesFromTypeId from "./getDurationInFramesFromTypeId";
-import bio from './bio.png'
 import ExtraSequences from "./ExtraSquences";
 
 interface MyVideoProps {
