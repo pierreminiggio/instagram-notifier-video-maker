@@ -19,7 +19,6 @@ jobs:
       - uses: actions/setup-node@main
       - run: sudo apt update
       - run: sudo apt install ffmpeg
-      - run: sudo apt install apt install -y libnss3 libdbus-1-3 libatk1.0-0 libasound2 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libgbm-dev libatk-bridge2.0-0
       - run: npm i
       - run: echo $WORKFLOW_INPUT > props.json
         env:
